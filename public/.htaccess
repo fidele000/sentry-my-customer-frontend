@@ -1,13 +1,8 @@
-
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
-    <Directory>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-    </Directory>
+
     RewriteEngine On
 
     # Handle Authorization Header
