@@ -1,13 +1,8 @@
-<Directory /var/www/>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-</Directory>
-
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
     </IfModule>
+    AllowOverride All
     RewriteEngine On
 
     # Handle Authorization Header
